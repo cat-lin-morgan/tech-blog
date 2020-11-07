@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2%;
+    color: #a200ff;
+}
+
+h1 {
+    color: #0044ff;
+    font-size: 25px;
+}

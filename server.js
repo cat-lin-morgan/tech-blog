@@ -25,12 +25,15 @@ app.use(session(sess));
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({});
 
-//middleware
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.engine('handlebars', hbs.engine); 
+app.set('view engine', 'handlebars');
 
 //stylesheets
 app.use(express.static(path.join(__dirname, 'public')));
+
+//middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 //indicating you want to use routes
 app.use(routes);
