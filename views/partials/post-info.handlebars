@@ -1,13 +1,15 @@
-<article class="post">
+<article class="post card">
     <div class="title">
-        <h3>{{title}}</h3>
-        <p>{{post_text}}</p>
+        <a href="/post/{{id}}"><h3 class="card-header">{{title}}</h3></a>
+        <p class="card-body">{{post_text}}</p>
     </div>
-    <div class="meta"> point(s) by {{user.username}} on
+    <div class="blockquote-footer"> point(s) by {{user.username}} on
         {{created_at}}
         |
         <a href="/post/{{id}}">{{comments.length}} comments(s)</a>
     </div>
 </article>
+
+<script src="/javascript/comment.js"></script>
 
 {{!-- {{format_plural "comment" comments.length}} format_date format_url--}}
