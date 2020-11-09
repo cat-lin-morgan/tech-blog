@@ -4,12 +4,10 @@
         <p class="card-body">{{post_text}}</p>
     </div>
     <div class="blockquote-footer"> point(s) by {{user.username}} on
-        {{created_at}}
+        {{format_date created_at}}
         |
-        <a href="/post/{{id}}">{{comments.length}} comments(s)</a>
+        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
     </div>
 </article>
 
 <script src="/javascript/comment.js"></script>
-
-{{!-- {{format_plural "comment" comments.length}} format_date format_url--}}
