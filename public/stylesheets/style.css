@@ -31,3 +31,11 @@ h1 {
 .login-wrapper {
     width: 500px;
 }
+
+.edit-btn {
+    margin: 10px 0;
+}
+
+.back2dashboard {
+    margin-top: 10px;
+}

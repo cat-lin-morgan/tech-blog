@@ -5,8 +5,8 @@ async function editFormHandler(event) {
         window.location.toString().split('/').length - 1
     ];
 
-    const title = document.querySelector('input[name="post-title"]').value;
-    const post_text = document.querySelector('input[name="post-text"]').value;
+    const title = document.querySelector('#post-title').value;
+    const post_text = document.querySelector('#post-text').value;
     
     const response = await fetch(`/api/posts/${post_id}`, {
         method: 'PUT',

@@ -1,6 +1,6 @@
 
 <section>
-    <div class="card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card border-dark mt-3 mb-3" style="max-width: 18rem;">
         <div class="card-header"><h2>Create New Post</h2></div>
         <div class="card-body text-dark">
             <div class="card-text">
@@ -27,7 +27,7 @@
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link btn btn-outline-primary">Edit post</a>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link btn btn-outline-primary edit-btn">Edit post</a>
     </li>
     {{/each}}
   </ol>
