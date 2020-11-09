@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { User, Post, Comment }= require('../../models');
+const withAuth = require('../../utils/auth');
 
 //GET route to the api/users for all of the users
 router.get('/', (req, res) => {
@@ -70,7 +71,7 @@ router.post('/', (req, res) => {
 });
 
 //a PUT route to update the user by id
-router.put('/:id', (req, res) => {
+router.put('/:id', withAuth, (req, res) => {
     User.update(
         {
             username: req.body.username
@@ -142,7 +143,7 @@ router.post('/logout', (req, res) => {
 
 
 //DELETE route to remove the user by id
-router.delete('/:id', (req, res) => {
+router.delete('/:id', withAuth, (req, res) => {
     User.destroy({
         where: {
             id: req.params.id
