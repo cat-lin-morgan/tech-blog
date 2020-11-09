@@ -4,7 +4,7 @@
         <p class="card-body">{{post_text}}</p>
     </div>
     <div class="blockquote-footer"> point(s) by {{user.username}} on
-        {{format_date created_at}}
+        {{format_date createdAt}}
         |
         <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
     </div>

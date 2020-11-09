@@ -5,8 +5,6 @@ const { Post, User, Comment } = require('../models');
 //GET request to render home page
 router.get('/', (req, res) => {
 
-    // console.log('this is the current', req.session);
-
     Post.findAll({
         include: [      
             {
@@ -57,6 +55,7 @@ router.get('/signup', (req, res) => {
 
 //route to get to a single post
 router.get('/post/:id', (req, res) => {
+    console.log('hey listen');
     Post.findOne({
         where: {
             id: req.params.id
