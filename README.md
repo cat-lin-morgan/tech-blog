@@ -19,8 +19,8 @@ I used the [express-handlebars package](https://www.npmjs.com/package/express-ha
 * [License](#license)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Screenshot](###credits)
-
+* [Screenshot](#screenshot)
+* [Deployed](#deployed)
 
 
 ## License
@@ -52,13 +52,11 @@ I got help from the TAs and my tutor!
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/cat-lin-morgan/) or email me at plummorgan@gmail.com!
 
-## Video Walk-Thru and Screenshot
+### Deployed
 
-#### Video Walk-thru
+[Click here for the application deployed to Heroku!](https://gentle-harbor-12576.herokuapp.com/ "Tech Blog")
 
-[Click here for the application deployed to Heroku](https://gentle-harbor-12576.herokuapp.com/ "Tech Blog")
-
-#### Screenshot
+### Screenshot
 <img src='techblogscreenshot.png' alt='Screenshot of Tech Blog, live!'/>
 
 
