@@ -13,7 +13,7 @@
                         <label for="post-text">Post</label>
                         <textarea id="post-text" name="post-text" placeholder="Where is my post?"></textarea>
                     </div>
-                    <button type="submit" class="btn">Create</button>
+                    <button type="submit" class="btn btn-outline-primary">Create</button>
                 </form>
             </div>
         </div>
@@ -27,7 +27,7 @@
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link btn btn-outline-primary">Edit post</a>
     </li>
     {{/each}}
   </ol>
