@@ -56,7 +56,7 @@ If you'd like to ask further questions you can reach me via [GitHub](https://git
 
 #### Video Walk-thru
 
-[Click here for the application deployed to Heroku]("Tech Blog")
+[Click here for the application deployed to Heroku]( "Tech Blog")
 
 #### Screenshot
 <img src='techblogscreenshot.png' alt='Screenshot of Tech Blog, live!'/>
