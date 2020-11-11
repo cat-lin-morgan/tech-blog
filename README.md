@@ -8,10 +8,12 @@ This was a website, built using MVC paradigm.
 **To Be Noted:**
 I used the [express-handlebars package](https://www.npmjs.com/package/express-handlebars), [MySQL2 package](https://www.npmjs.com/package/mysql2), [Express-Handlebars framework](https://www.npmjs.com/package/express-handlebars), and honestly a whole bunch of others, check out my package.json if you really want to know.
 
-**Other:** 
+**Other:** I have changed the below badges since I submitted the assignment and will probably change the screenshot at some point to something with funnier Blog titles and blurbs. 
+
+**Regrets:** I wish I had more time to really style this with what I had in mind. I realized I could use Bootstrap and that was both cool and fun to use, but I'd like to give it more personal touches as well as make some obvious things easier to interact with. You know, throw a margin here or there, or a display flex on this or that. Or make a certian text box larger lol.
 
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
-![node badge](https://img.shields.io/badge/Handcrafted%20w%2F-Node.js-yellowgreen)
+![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet)
 ![mysqlexpress badge](https://img.shields.io/badge/Express.js-MySQL-yellow)
 
 ## Table of Contents 
